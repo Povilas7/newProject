@@ -6,6 +6,9 @@
 .d-flex{
   display: flex;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
 .jus-btw{
   justify-content: space-between;
 }
@@ -17,6 +20,29 @@
 }
 .mg-20{
   margin: 20px;
+}
+.reviewCart{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.reviewCart input{
+  margin: 10px;
+}
+.reviewCart textarea{
+  margin: 10px;
+  width: 92%;
+  height: 100px;
+}
+.largeButton{
+  margin: 10px;
+  background-color: #525353;
+}
+i{
+  margin: 10px 0 10px 350px;
+  font-size: 25px;
+  cursor: pointer;
 }
 .toolbar{
   width: 95%;
@@ -34,12 +60,27 @@
   margin: 10px;
 }
 .page{
+  display: flex;
+  flex-wrap: wrap;
   width: 95%;
-  height: 450px;
   padding: 20px;
   background-color: #8c8c8c;
   border-radius: 10px;
   margin: 10px;
+}
+.recipeBox{
+  width: 400px;
+  background-color: #525353;
+  margin: 5px;
+  border-radius: 10px;
+}
+.button{
+  background-color: #8c8c8c;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
 }
 .boxFood{
   width: 300px;
@@ -51,6 +92,13 @@
   width: 150px;
   height: 150px;
   margin: 5px;
+  border-radius: 20px;
+}
+.recipeImg img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 20px;
 }
 .boxFood div{
   display: flex;

@@ -20,6 +20,9 @@ function Toolbar(){
                 <div className="link">
                     <Link className="text" to="/foodgallery">Food gallery</Link>
                 </div>
+                <div className="link">
+                    <Link className="text" to="/favorite">Favorite</Link>
+                </div>
 
             </div>
         </div>

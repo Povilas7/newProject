@@ -17,6 +17,14 @@ const userSchema = new Schema({
     preparation: {
         type: Array,
         required: true
+    },
+    reviews: {
+        type: Array,
+        required: true
+    },
+    favorite: {
+        type: Boolean,
+        required: true
     }
 })
 

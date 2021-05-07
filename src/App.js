@@ -10,6 +10,8 @@ import {
 import Toolbar from "./components/Toolbar";
 import Food from "./components/Food";
 import FoodGallery from "./components/FoodGallery";
+import SingleRecipe from "./components/SingleRecipe";
+import Favorite from "./components/Favorite";
 
 function App() {
   return (
@@ -29,6 +31,12 @@ function App() {
                 </Route>
                 <Route path='/foodgallery'>
                   <FoodGallery/>
+                </Route>
+                <Route path='/recipe/:id'>
+                  <SingleRecipe/>
+                </Route>
+                <Route path='/favorite'>
+                  <Favorite/>
                 </Route>
 
               </Switch>
